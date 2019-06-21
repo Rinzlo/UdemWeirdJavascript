@@ -1,14 +1,7 @@
-// Hoisting Sets up memory space 
-// for variables and functions.
-// Functions are put into memory
-// in their entirity and variables are
-// set to undefined.
-
-b();
+var a = 'hellow world';
 console.log(a);
 
-var a = 'Hello World';
-
-function b() {
-    console.log('Called b!');
-}
+if (a === undefined)
+    console.log('a is undefined!');
+else
+    console.log('a is defined!');
